@@ -102,7 +102,14 @@ def send_welcome(message):
 
     
 
-    welcome_text = "Welcome to Trader! 📊 Select an option from the menu below:"
+    welcome_text = "📊 Welcome to Educational Trading Bot!
+
+আমরা আপনাকে শেখাই Professional Trading —
+✅ Market Analysis
+✅ Trading Logic & Strategy  
+✅ Risk Management
+
+নিচের মেনু থেকে শুরু করুন 👇"
 
     bot.send_message(message.chat.id, welcome_text, reply_markup=markup)
 
